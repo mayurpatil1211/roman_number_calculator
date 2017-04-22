@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Roman Number Arithmetic Operations</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="js/main.js"></script>
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="head">
+      <h2>Roman Number Arithmetic Operations</h2>
+    </div>
+    <input type="text" name="roman_value_one" id="roman_value_one" class="form-control" placeholder="Enter First Value" /><br />
+      <div class="form-group">
+  <select id="sel1" class="select">
+    <option>Select operator</option>
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+  </select>
+</div>
+    <input  type="text" name="roman_value_two" id="roman_value_two" class="form-control" placeholder="Enter Second Value"  /><br />
+  
+
+<div class="output_div resize form-group">
+ Output <p name="output" id="output"></p>
+</div>
+
+
+
+   
+    <div class="message">OUTPUT</div>
+    <button id="submit" type="submit" class="btn btn-md btn-success" onclick="operation(document.getElementById('roman_value_one').value,document.getElementById('roman_value_two').value,document.getElementById('sel1').value)">
+      Send!
+    </button>
+  </div>
+
+
+</body>
+</html>

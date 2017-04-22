@@ -1,0 +1,107 @@
+	body {
+  padding-top:25px;
+ 
+  margin-left:10px;
+  margin-right:10px;
+}
+.container {
+       margin: 0 auto;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ddd;
+    width: 525px;
+       height: 375px;
+}
+.head {
+     border-radius: 6px 6px 0px 0px;
+    background-color: #ddd;
+    color: #000;
+    font-weight: 600;
+    font-size: 17px;
+}
+h2 {
+  text-align:center;
+  padding:18px 0 18px 0;
+  font-size: 1.4em;
+}
+input {
+  margin-bottom:10px;
+}
+textarea {
+  height:100px;
+  margin-bottom:10px;
+}
+
+input, textarea, select {
+    font-size: 15px;
+        padding: 4px 6px 5px;
+    font-family: ubuntu;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+button {
+  margin-top:15px;
+  margin-bottom:25px;
+  padding: 12px 45px;
+  border-radius: 5px;
+  border: 1px solid #2ABCA7;
+  transition: .5s;
+  display: inline-block;
+  cursor: pointer;
+  color:#fff;
+}
+button:hover, .button:hover {
+  background:#19a08c;
+}
+label.error {
+    font-family:'Source Sans Pro',arial,sans-serif;
+    font-size:1em;
+    display:block;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#d89c9c;
+    width: 80%;
+    margin:auto;
+    color: #FAFAFA;
+    border-radius:6px;
+}
+/* media queries */
+@media (max-width: 700px) {
+  label.error {
+    width: 90%;
+  }
+
+  input, textarea {
+    width: 90%;
+  }
+  button {
+    width:90%;
+  }
+  body {
+  padding-top:10px;
+  }  
+}
+.message {
+    font-family:Ubuntu;
+    font-size:1.1em;
+    display:none;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-color:#2ABCA7;
+    width: 80%;
+    margin:auto;
+    color: #FAFAFA;
+    border-radius:6px;
+}
+.resize{
+	resize: none;
+}
+
+
+inspector-stylesheet:1
+p#output {
+    height: 40px;
+    margin-top: 40px;
+}
